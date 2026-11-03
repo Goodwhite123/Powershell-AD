@@ -16,4 +16,4 @@ O script realiza uma pesquisa otimizada utilizando os seguintes componentes:
 Import-Module ActiveDirectory
 
 # Pesquisa utilizadores cujo nome contenha "Joao" e exibe o Nome e o SamAccountName
-Get-ADUser -Filter "Name -like '*Joao*'" | Select-Object Name, SamAccountName
+Get-ADUser -Filter "Name -like '*Debora*'" | Format-List Name, SamAccountName, UserPrincipalName
